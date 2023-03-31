@@ -1,0 +1,15 @@
+{
+    "server": {
+        "host": "localhost",
+        "port": 0
+    },
+    "api": {
+        "ss": {
+            "baseUrl":"https://socialsentiment.io/api/v1",
+            "timeout": 5000,
+            "headers": {
+                "Authorization":"Token 36e2613323c9b9b6a794042935c7b5e5989665f5"
+            }
+        }
+    }
+}
