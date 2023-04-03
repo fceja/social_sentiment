@@ -14,11 +14,6 @@ const client = new AxiosClient({
     headers: { "Authorization": ssApiToken}
 });
 
-router.use((req, res, next) => {
-    next()
-})
-
-
 router.get('/*', (req, res) => {
     const symbol = req.params[0];
 
