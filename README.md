@@ -1,5 +1,18 @@
 # social_sentiment
 
+Description
+---
+App that uses React as a Client, and Express.JS for Backend.
+
+The app as a whole would return "Social Sentiment" data for a ```stock symbol``` provided by user.
+The user would provide a ```stock symbol``` or ```industry selection```, and the app would return and display the following data: date, positive score value, negative score value, and activity value.
+
+This app would retrieve data for free from https://SocialSentiment.io (free api key with account registration).
+Unfortunately, the SocialSentiment.io site and API's are no longer live.
+
+Per SocialSentiment.io, their data was being sourced from Twitter, and they could no longer afford to re-activate services after Elon Musk takeover. 😐
+
+With a few edits, this code can me modified to point to a different API source. Posting for visibility.
 
 Installation
 ---
