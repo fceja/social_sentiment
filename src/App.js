@@ -1,16 +1,3 @@
-<<<<<<< HEAD
-
-
-function App() {
-  return (
-    <div className="main-container">
-      <div className="search-container">
-        <input type="text" id='search-input' className="search-input" placeholder='Symbol'/>
-      </div>
-      <div className="results-container">
-        <span id="results">Results</span>
-      </div>
-=======
 import logo from './logo.svg';
 import './App.css';
 
@@ -31,7 +18,6 @@ function App() {
           Learn React
         </a>
       </header>
->>>>>>> f8bdca618a74ddbfb8b584da4dfc6c7f59449cdc
     </div>
   );
 }
